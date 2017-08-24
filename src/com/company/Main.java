@@ -1,9 +1,7 @@
 package com.company;
 //引入 util 標準類別
 import java.util.Scanner;
-
 public class Main {
-
     public static void main(String[] args) {
         // 宣告一個 Scanner 物件名為 scn 用來接收
 	    Scanner scn = new Scanner(System.in);
@@ -13,8 +11,7 @@ public class Main {
 	    System.out.println(recFun(n));
     }
 
-    // 定義一個 recFun 函式 傳入 1 個整數資料,
-    // 回傳一個整數值
+    // 定義一個 recFun 函式 傳入 1 個整數資料,回傳一個整數值
     public static int recFun(long val){
         // 如果傳入的值 小於 10 (即剩個位數) 則回傳 1
         if(val < 10){

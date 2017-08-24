@@ -6,8 +6,6 @@
 ## 輸出說明：
 輸出該數值是幾位數(# ofdigits)，最後必須有換行字元。
 ## 範例：
-Sample Input:
-Sample Output:
-4395
-4
-⏎
+| Sample Input: | Sample Output: |
+| 4 | 4395 |
+|  |  ⏎  |

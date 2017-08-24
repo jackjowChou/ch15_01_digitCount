@@ -2,4 +2,5 @@
 .gitignore
 .idea/
 ch15_01_digitCount.iml
-src/
+.DS_Store
+out/

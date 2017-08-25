@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // 宣告一個 Scanner 物件名為 scn 用來接收
+
 	    Scanner scn = new Scanner(System.in);
         // 使用者使用鍵盤輸入的長整數資料
 	    long n = scn.nextLong();
@@ -16,11 +16,10 @@ public class Main {
         // 如果傳入的值 小於 10 (即剩個位數) 則回傳 1
         if(val < 10){
             return 1;
-        }else{
-            // 如果傳入的值 大於 10 則回傳 1 加上 再次
-            // 呼叫自身函式 recFun() 而傳入的參數是將
-            // val 除以 10 之後再傳入
+        }else { // 如果傳入的值 大於 10 則呼叫自身函式 recFun()再加 1
+            //  傳入的參數是將 val 除以 10 之後再傳入
             return 1 + recFun(val / 10);
         }
     }
 }
+

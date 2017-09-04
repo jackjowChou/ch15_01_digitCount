@@ -6,6 +6,7 @@ public class Main {
 
 	    Scanner scn = new Scanner(System.in);
         // 使用者使用鍵盤輸入的長整數資料
+        System.out.println("n: ");
 	    long n = scn.nextLong();
         // 呼叫 recFun 函數並在回傳值後印出結果
 	    System.out.println(recFun(n));
